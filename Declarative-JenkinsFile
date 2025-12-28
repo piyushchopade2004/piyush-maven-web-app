@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git 'https://github.com/ashokitschool/maven-web-app.git'
+                git 'https://github.com/piyushchopade2004/piyush-maven-web-app.git'
             }
         }
          stage('Build') {
